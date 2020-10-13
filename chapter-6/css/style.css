@@ -148,4 +148,86 @@ img {
     margin: 10px 0 0;
 }
 
+@media (max-width:600px) {    
+    .news-contents {
+        flex-direction: column;
+    }
 
+    article,
+    aside {
+        width: 100%;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items :center;
+    }
+
+    #news .page-title {
+        margin-top: 30px;
+    }
+
+    aside {
+        margin-top: 60px;
+    }
+
+    .post-date {
+        width: 70px;
+        height: 70;
+        font-size: 1rem;
+    }
+
+    .post-date span {
+        font-size: 0.875rem;
+        padding-top: 2px;
+    }
+
+    .post-title {
+        font-size: 1.375rem;
+    }
+
+    .post-cat {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+
+    .post-title,
+    .post-cat {
+        margin-left: 80px;
+    }
+
+
+
+    /* ヘッダー----------------------------------------*/
+
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+
+    /* ホーム　-----------------------------------------*/
+
+    .home-content {
+        margin-top: 20%;
+    }
+}
+
+
+/* menu --------------------------------------------------*/
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3,minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
